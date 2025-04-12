@@ -38,7 +38,7 @@ public class Sound
       else break;
     }
     int[] cool = new int[samples.length-counter];
-    for(int i = counter-1; i < samples.length; i++){cool[i-counter=1] = samples[i];}
+    for(int i = counter-1; i < samples.length; i++){cool[i-counter+1] = samples[i];}
     samples = cool;
   }
 }

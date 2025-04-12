@@ -34,11 +34,11 @@ public class Sound
   {
     int counter = 0;
     for (int i = 0; i < samples.length; i++){
-      if(sample[i] == 0){counter++;}
+      if(samples[i] == 0){counter++;}
       else break;
     }
     int[] cool = new int[samples.length-counter];
-    for(int i = counter-1; i < samples.length; i++){cool[i-counter=1] = sample[i];}
-    counter = cool;
+    for(int i = counter-1; i < samples.length; i++){cool[i-counter=1] = samples[i];}
+    samples = cool;
   }
 }
